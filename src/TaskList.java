@@ -7,6 +7,10 @@ public class TaskList {
         this.taskList = new ArrayList<>();
     }
 
+    public ArrayList<Task> getTaskList() {
+        return taskList;
+    }
+
     public TaskList(Task todo) {
         this.taskList = new ArrayList<>();
     }

@@ -56,9 +56,9 @@ public class Task {
     }
 
     public void showTask() {
-        System.out.println("Titel: " + title);
+        System.out.println("Überschrift: " + title);
         System.out.println("To-Do: " + description);
-        System.out.println("Datum: " + dueDate);
+        System.out.println("Fälligjeitsdatum: " + dueDate);
         System.out.println("Status: " + getStatusText());
     }
 }
